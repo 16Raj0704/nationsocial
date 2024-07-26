@@ -41,9 +41,7 @@ const AdminSignIn = () => {
     <div className="flex justify-center items-center h-screen">
       <div className="w-full max-w-sm mx-auto overflow-hidden bg-white rounded-md shadow-md">
         <div className="px-6 py-4">
-          <div className="flex justify-center mx-auto">
-            <img className="w-auto h-5" src={logo} alt="" />
-          </div>
+          
 
           <p className="mt-1 text-center text-gray-500">Sign in as admin</p>
           <form>

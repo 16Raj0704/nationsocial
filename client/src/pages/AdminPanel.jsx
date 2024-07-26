@@ -22,7 +22,7 @@ const AdminPanel = () => {
         navigate("/admin/signin");
       });
     }
-  }, [adminPanelError, dispatch, navigate]);
+  }, [adminPanelError, dispatch, navigate] );
 
   return (
     <div className="pt-5 max-w-6xl mx-auto flex flex-col justify-center items-center ">

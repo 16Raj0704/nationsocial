@@ -30,7 +30,7 @@ const sendVerificationEmail = async (req, res) => {
 
   try {
     let transporter = nodemailer.createTransport({
-      service: EMAIL_SERVICE,
+      service: "gmail",
       auth: {
         user: USER,
         pass: PASS,
@@ -38,7 +38,7 @@ const sendVerificationEmail = async (req, res) => {
     });
 
     let info = await transporter.sendMail({
-      from: `"SocialEcho" <${USER}>`,
+      from: `social nation ${USER}`,
       to: email,
       subject: "Verify your email address",
       html: verifyEmailHTML(name, verificationLink, verificationCode),
@@ -58,7 +58,7 @@ const sendVerificationEmail = async (req, res) => {
     });
   } catch (err) {
     console.log(
-      "Could not send verification email. There could be an issue with the provided credentials or the email service."
+      "error",err
     );
     res.status(500).json({ message: "Something went wrong" });
   }
