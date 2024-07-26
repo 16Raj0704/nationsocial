@@ -1,5 +1,4 @@
 #!/bin/bash
-
 prompt_exit() {
   read -p "Press Enter to continue, or 'c' to exit..."
   if [[ "$REPLY" == "c" || "$REPLY" == "C" ]]; then

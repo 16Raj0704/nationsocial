@@ -4,7 +4,7 @@ import "./index.css";
 import AppContainer from "./AppContainer";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <BrowserRouter>
+  <BrowserRouter> 
     <AppContainer />
   </BrowserRouter>
 );
