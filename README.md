@@ -47,7 +47,7 @@ Features
  
  Moderator dashboard
 
-
+<br/>
 
 Technologies
 
