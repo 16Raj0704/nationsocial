@@ -24,31 +24,55 @@ In case of a suspicious login attempt, users are promptly notified via email and
 Features
 
  User authentication and authorization (JWT)
+ 
  User profile creation and management
+ 
  Post creation and management
+ 
  Commenting on posts
+ 
  Liking posts and comments
+ 
  Following/unfollowing users
+ 
  Reporting posts
+ 
  Content moderation
+ 
  Context-based authentication
+ 
  Device management
+ 
  Admin dashboard
+ 
  Moderator dashboard
 
 Technologies
 
 
 React.js
+
 Redux
+
 Node.js
+
 Express.js
+
 MongoDB
+
 Tailwind CSS
+
 JWT Authentication
+
 Passport.js
+
 Nodemailer
+
 Crypto-js
+
 Azure Blob Storage
+
 Flask
+
+
 Hugging Face Transformers
