@@ -19,7 +19,7 @@ Context-Based Authentication
 The platform implements context-based authentication to enhance user account security. It takes into consideration user location, IP address, and device information for authentication purposes. Users can conveniently manage their devices directly from the platform. To ensure data privacy, this information is encrypted using the AES algorithm and securely stored in the database.
 
 In case of a suspicious login attempt, users are promptly notified via email and are required to confirm their identity to protect against unauthorized access
-
+<br/>
 
 Features
 
