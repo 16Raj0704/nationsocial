@@ -17,20 +17,6 @@ This will start the Flask app on `http://localhost:5000`.
 
 If you prefer not to download the model files and do not have Python and pip installed, you can use a Docker image to run the app. Follow the steps below:
 
-Pull the Docker image:
-
-```
-docker pull neaz/classifier_api
-```
-
-Then run the image using:
-
-```
-docker run -p 5000:5000 neaz/classifier_api
-```
-
-This will start the app in a Docker container, and you can access it on `http://localhost:5000`.
-
 The app has two endpoints:
 
 - `/`: Returns a simple JSON response to indicate that the app is running.
