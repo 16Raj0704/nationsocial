@@ -9,33 +9,7 @@ Before you can run the app, you need to have the following software installed on
 - Python 3.6 or higher
 - pip package manager
 
-## Installation
 
-1. Clone the repository to your local machine:
-
-```
-https://github.com/nz-m/SocialEcho.git
-```
-
-2. Navigate to the project directory:
-
-```
-cd SocialEcho/classifier_server
-```
-
-3. Install the required Python packages:
-
-```
-pip install -r requirements.txt
-```
-
-## Usage
-
-To run the app, use the following command:
-
-```
-python classifier_api.py
-```
 
 This will start the Flask app on `http://localhost:5000`.
 
